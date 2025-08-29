@@ -28,6 +28,7 @@ const Footer = () => {
               <Link
                 href="https://github.com/Call0dotco/call"
                 target="_blank"
+                rel="noopener noreferrer"
                 aria-label="GitHub"
                 className="rounded-md p-2 hover:bg-muted-foreground/10"
               >
@@ -36,6 +37,7 @@ const Footer = () => {
               <Link
                 href="https://discord.com/invite/bre4echNxB"
                 target="_blank"
+                rel="noopener noreferrer"
                 aria-label="Discord"
                 className="rounded-md p-2 hover:bg-muted-foreground/10"
               >
@@ -44,6 +46,7 @@ const Footer = () => {
               <Link
                 href="https://x.com/joincalldotco"
                 target="_blank"
+                rel="noopener noreferrer"
                 aria-label="X"
                 className="rounded-md p-2 hover:bg-muted-foreground/10"
               >
@@ -64,7 +67,7 @@ const Footer = () => {
             <div className="flex flex-col gap-2">
               <h3 className="text-white/90 font-medium">Product</h3>
               <Link href="/roadmap" className="text-muted-foreground hover:underline">Roadmap</Link>
-           
+
             </div>
           </div>
         </div>
